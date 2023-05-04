@@ -12,7 +12,7 @@ import java.util.Map;
 
 @CrossOrigin(origins = "https://localhost:3000")
 @RestController
-@RequestMapping("employee-system")
+@RequestMapping("/employee-system")
 public class EmployeeController {
     private EmployeeService employeeService;
 

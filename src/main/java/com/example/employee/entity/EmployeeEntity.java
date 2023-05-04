@@ -10,7 +10,7 @@ public class EmployeeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String firstName;
+    private String firstName; // maybe renameit
     private String lastName;
     private String emailId;
 }

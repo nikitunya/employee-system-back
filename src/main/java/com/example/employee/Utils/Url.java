@@ -6,4 +6,5 @@ public class Url {
     final public static String deleteEmployee = "/employees/{id}";
     final public static String employeeById = "/employees/{id}";
     final public static String updateEmployeeById = "/employees/{id}";
+    final public static String userByEmail = "/employees/{email}";
 }
